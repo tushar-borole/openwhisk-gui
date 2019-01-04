@@ -1,7 +1,7 @@
 /* Main app configs go here */
 
 export const appConfig = {
-  name: 'Your app name',
+  name: 'Test',
   shortName: 'YourAppName',
   description: 'Description of your app',
   splashScreenBackground: '#ffffff'
