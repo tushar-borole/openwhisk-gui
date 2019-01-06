@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "dist/**",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "dist/index.html"
+    },
+    {
+      "src": "/main.css",
+      "dest": "dist/main.css"
+    },
+    {
+      "src": "/main.js",
+      "dest": "dist/main.js"
+    }
+  ]
+}

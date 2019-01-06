@@ -6,6 +6,9 @@ import Hidden from '@material-ui/core/Hidden'
 import Navigator from './Navigator'
 import Content from './Content'
 import Header from './Header'
+// import openwhisk from 'openwhisk'
+// DOES NOT WORK! Environment parameters not set.
+// const ow = openwhisk()
 
 let theme = createMuiTheme({
   typography: {
